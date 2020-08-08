@@ -1,0 +1,47 @@
+.card {
+    border: 1px solid gray;
+    width: 80%;
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 45px;
+}
+
+.card .dropdownItems{
+    display: flex;
+    flex-direction: column;
+    padding-left: .5rem;
+    background-color: gray;
+    width: 10rem;
+}
+
+.card .bitcoinInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.bitcoinChart {
+    background-color: red;
+}
+
+.card .bitcoinInfo h2,p,h5{
+    color: black
+}
+
+.card .bitcoinInputContainer{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+
+.card .bitcoinInputField{
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin-right: .5rem;
+}
+
